@@ -1,6 +1,9 @@
 import os
 import re
 import shutil
+from sys import argv
+
+# TODO: document code properly
 
 """------------------move_files--------------------------------
 usage: moves files with specific extension to a specific folder
@@ -10,6 +13,8 @@ param: ext - extension of files
 """
 
 
+# TODO: create terminal output
+
 def move_files(init_folder, other_folder, ext):
     while True:
         for entry in os.listdir(init_folder):
@@ -18,5 +23,4 @@ def move_files(init_folder, other_folder, ext):
                     shutil.move(init_folder + "/" + entry, other_folder)
 
 
-if __name__ == '__main__':
-    move_files("D:/OddOnesOut_Folders/Folder_1", "D:/OddOnesOut_Folders/Folder_2", "txt")
+move_files(argv[1], argv[2], argv[3])
