@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import os
 import re
 import shutil
@@ -12,8 +13,6 @@ param: other_folder - folder to move files to
 param: ext - extension of files
 """
 
-
-# TODO: create terminal output
 
 def move_files(init_folder, other_folder, ext):
     while True:
