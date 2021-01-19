@@ -4,8 +4,6 @@ import re
 import shutil
 from sys import argv
 
-# TODO: document code properly
-
 """------------------move_files--------------------------------
 usage: moves files with specific extension to a specific folder
 param: init_folder - initial folder

@@ -1,7 +1,5 @@
 import sqlite3
 
-# TODO: Make better names
-
 conn = sqlite3.connect('processes.db')
 
 c = conn.cursor()
@@ -60,5 +58,4 @@ def print_table():
     row = c.fetchall()
 
     conn.commit()
-    for i in row:
-        print(i)
+    return row
