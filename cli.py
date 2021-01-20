@@ -6,6 +6,7 @@ import psutil
 import sys
 
 
+# Creating a command line arguments
 my_parser = argparse.ArgumentParser(prog='odd',
                                     description='moves files with specific extension to a specific folder')
 my_parser.add_argument('-c', action='store', type=str, nargs=3)
@@ -14,6 +15,7 @@ my_parser.add_argument('-ls', action='store_true')
 
 args = my_parser.parse_args()
 
+# Creating a process
 try:
     process = subprocess.Popen(["python", "checker.py", *args.c], stdout=subprocess.PIPE)
     identifier = sqllite.last_id()[0] + 1
@@ -27,6 +29,7 @@ else:
     sys.stdout.write(f"ID of your process is {identifier}")
 
 
+# removing a process
 if args.rm == "None":
     pass
 elif args.rm == "all":
@@ -46,6 +49,12 @@ else:
         sys.stdout.write(f"Error: Wrong id")
 
 
+"""------------------create_table--------------------------------
+usage: prettifies the record from the table
+record: a record from the table
+"""
+
+
 def prettify(record):
     record = str(record)
     record = record.replace("(", "|  ")
@@ -54,6 +63,7 @@ def prettify(record):
     return record
 
 
+# Printing a list of all current processes
 if args.ls:
     for table_record in sqllite.print_table():
         try:
