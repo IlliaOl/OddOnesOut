@@ -5,9 +5,11 @@ OddOnesOut is an open source command line tool. The main purpose of this program
 
 # Installation
 
-TODO
+To install the latest stable version, run the following:
+`pip install odd`
 
 # Commands
+
 1) Creating a process:
 
     `odd -c [FOLDER TO CHECK FOR FILES] [FOLDER TO MOVE FILES TO] [FILE EXTENSION]`
