@@ -6,6 +6,7 @@ OddOnesOut is an open source command line tool. The main purpose of this program
 # Installation
 
 To install the latest stable version, run the following:
+
 `pip install odd`
 
 # Commands
