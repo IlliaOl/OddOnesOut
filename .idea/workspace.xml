@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4a58b7e5-b3bf-4d49-8b83-367098a153fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/checker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processes.db" beforeDir="false" afterPath="$PROJECT_DIR$/processes.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sqllite.py" beforeDir="false" afterPath="$PROJECT_DIR$/sqllite.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,14 +189,22 @@
       <option name="project" value="LOCAL" />
       <updated>1611081969298</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add comments and documentation">
+      <created>1611164349059</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611164349060</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created constant background checker" />
     <MESSAGE value="Added multi process support" />
     <MESSAGE value="Added additional checking for terminated processes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added additional checking for terminated processes" />
+    <MESSAGE value="Add comments and documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add comments and documentation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="518" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610980268795">
@@ -209,10 +219,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610816022658" />
-    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1611081967814">
+    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1611164347370">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1611081967814" />
+    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1611164347370" />
     <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1610999115345">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

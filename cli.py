@@ -37,7 +37,7 @@ elif args.rm == "all":
         p = psutil.Process(process_record[-1])
         p.terminate()
         sqllite.remove_from_table(process_record[-1])
-        sys.stdout.write(f"All processes has been removed")
+    sys.stdout.write(f"All processes has been removed")
 else:
     try:
         process_id = sqllite.select_pid_table(args.rm)
